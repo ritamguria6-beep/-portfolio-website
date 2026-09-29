@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>My Portfolio</title><link rel="stylesheet" href="style.css"></head><body>
+<header><a href="#home" class="logo">YourName</a>
+<button id="menuBtn" aria-label="Menu">☰</button>
+<nav id="nav"><a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#resume">Resume</a><a href="#contact">Contact</a></nav></header>
+<section id="home" class="hero"><div><h1>Hi, I'm <span>Your Name</span></h1><p>Frontend Developer building clean, responsive web experiences.</p><a class="btn" href="#projects">View My Work</a></div></section>
+<section id="about"><h2>About</h2><p class="wrap">Write a short intro about yourself, your education, and what you love building.</p></section>
+<section id="skills"><h2>Skills</h2><div class="wrap skills">
+<div><p>HTML</p><i data-w="90"></i></div><div><p>CSS</p><i data-w="85"></i></div><div><p>JavaScript</p><i data-w="75"></i></div><div><p>Git &amp; GitHub</p><i data-w="70"></i></div></div></section>
+<section id="projects"><h2>Projects</h2><div class="wrap cards">
+<article class="card"><img src="https://picsum.photos/400/240?random=1" alt="Project 1"><h3>To-Do App</h3><p>Task manager with Local Storage.</p><a href="#">GitHub</a> · <a href="#">Live</a></article>
+<article class="card"><img src="https://picsum.photos/400/240?random=2" alt="Project 2"><h3>Expense Tracker</h3><p>Track income and expenses.</p><a href="#">GitHub</a> · <a href="#">Live</a></article>
+<article class="card"><img src="https://picsum.photos/400/240?random=3" alt="Project 3"><h3>Portfolio</h3><p>This responsive website.</p><a href="#">GitHub</a> · <a href="#">Live</a></article></div></section>
+<section id="resume"><h2>Resume</h2><p>Download my CV (put your file at <code>resume.pdf</code>).</p><a class="btn" href="resume.pdf" download>Download Resume</a></section>
+<section id="contact"><h2>Contact</h2>
+<form id="form" class="wrap" novalidate><input id="name" placeholder="Name"><small></small><input id="email" placeholder="Email"><small></small><textarea id="msg" rows="4" placeholder="Message"></textarea><small></small><button class="btn">Send</button><p id="ok"></p></form></section>
+<footer>© 2026 Your Name</footer><script src="script.js"></script></body></html>
